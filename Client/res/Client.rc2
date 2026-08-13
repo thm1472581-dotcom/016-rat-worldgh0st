@@ -1,0 +1,10 @@
+// Client.RC2
+
+#ifdef APSTUDIO_INVOKED
+#error this file is not editable by Microsoft Visual C++
+#endif
+
+#define _XTP_EXCLUDE_CALENDAR
+#include <XTToolkitPro.rc>
+#include <Styles/Office2007/Office2007.rc>
+

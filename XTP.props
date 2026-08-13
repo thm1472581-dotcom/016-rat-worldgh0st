@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildThisFileDirectory)XTP.local.props" Condition="Exists('$(MSBuildThisFileDirectory)XTP.local.props')" />
+  <PropertyGroup>
+    <XtpRoot Condition="'$(XtpRoot)' == '' and '$(XTPROOT)' != ''">$(XTPROOT)</XtpRoot>
+    <XtpRoot Condition="'$(XtpRoot)' == ''">A:\100-programfiles\archive\Xtreme ToolkitPro v15.2.1</XtpRoot>
+    <XtpInclude>$(XtpRoot)\Source</XtpInclude>
+    <XtpLib Condition="Exists('$(XtpRoot)\Lib\vc120')">$(XtpRoot)\Lib\vc120</XtpLib>
+    <XtpLib Condition="'$(XtpLib)' == '' and Exists('$(XtpRoot)\Lib\vc100')">$(XtpRoot)\Lib\vc100</XtpLib>
+    <XtpLib Condition="'$(XtpLib)' == '' and Exists('$(XtpRoot)\Workspace\ToolkitPro\Static_Unicode_Debug\vc120')">$(XtpRoot)\Workspace\ToolkitPro\Static_Unicode_Debug\vc120</XtpLib>
+    <XtpLib Condition="'$(XtpLib)' == '' and Exists('$(XtpRoot)\Workspace\ToolkitPro\Static_Unicode_Debug\vc100')">$(XtpRoot)\Workspace\ToolkitPro\Static_Unicode_Debug\vc100</XtpLib>
+    <XtpLib Condition="'$(XtpLib)' == ''">$(XtpRoot)\Lib\vc100</XtpLib>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe" A:\000-work\001-project\158-remote-control\101-Rat-winos4.0-gh0st\worldgh0st\Client.sln /t:Client:Rebuild /p:Configuration=Debug /p:Platform=Win32

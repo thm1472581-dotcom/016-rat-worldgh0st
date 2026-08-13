@@ -1,0 +1,303 @@
+﻿生成启动时间为 2026/7/17 14:00:37。
+     1>项目“A:\000-work\001-project\158-remote-control\101-Rat-winos4.0-gh0st\worldgh0st\Server\Server.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         A:\100-programfiles\archive\VS2013\VC\bin\CL.exe /c /I..\Public /I..\Public\zlib /IPlugins /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Server.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         A:\100-programfiles\archive\VS2013\VC\bin\CL.exe /c /I..\Public /I..\Public\zlib /IPlugins /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Buffer.cpp ClientSocket.cpp InstallService.cpp KernelManager.cpp MainDlg.cpp Manager.cpp Plugins\FileManager.cpp Plugins\KeyboardManager.cpp Plugins\RegManager.cpp Plugins\ScreenManager.cpp Plugins\ScreenSpy.cpp Plugins\ServiceManager.cpp Plugins\SystemManager.cpp Plugins\UrlManager.cpp Regeditex.cpp Server.cpp ServerDlg.cpp until.cpp
+         until.cpp
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\until.cpp(160): warning C4996: 'GetVersionExA': 被声明为已否决
+                 c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(433) : 参见“GetVersionExA”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\until.cpp(163): warning C4996: 'GetVersionExA': 被声明为已否决
+                 c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(433) : 参见“GetVersionExA”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\until.cpp(201): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+         ServerDlg.cpp
+         Server.cpp
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\server.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\login.h(69): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\login.h(75): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\server.cpp(60): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(118) : 参见“strcat”的声明
+         Regeditex.cpp
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\regeditex.cpp(113): warning C4996: '_tcsncat': This function or variable may be unsafe. Consider using _tcsncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\tchar.h(1553) : 参见“_tcsncat”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\regeditex.cpp(114): warning C4996: '_tcsncat': This function or variable may be unsafe. Consider using _tcsncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\tchar.h(1553) : 参见“_tcsncat”的声明
+         UrlManager.cpp
+         SystemManager.cpp
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(62): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(152): warning C4996: 'GetVersionExA': 被声明为已否决
+                 c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(433) : 参见“GetVersionExA”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(166): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(118) : 参见“strcat”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(256): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(309): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(118) : 参见“strcat”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(357): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(118) : 参见“strcat”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(427): warning C4018: “<”: 有符号/无符号不匹配
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(440): warning C4018: “<”: 有符号/无符号不匹配
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(473): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(294) : 参见“wcscpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(555): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\stdlib.h(528) : 参见“mbstowcs”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(568): warning C4293: “<<”: Shift 计数为负或过大，其行为未定义
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(569): warning C4293: “<<”: Shift 计数为负或过大，其行为未定义
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(600): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(601): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(602): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(580): warning C4101: “hEvent”: 未引用的局部变量
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(737): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(939): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(940): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(118) : 参见“strcat”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(946): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(989): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(996): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(1052): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(1065): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(1070): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(1244): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(1304): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(1307): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(1310): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(1313): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(1316): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(1319): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(1322): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(1325): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(1328): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(1331): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(1334): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(1422): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(118) : 参见“strcat”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(1454): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(1465): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(1470): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(1482): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(1489): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(1494): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(1541): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(118) : 参见“strcat”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(1542): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(118) : 参见“strcat”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(1553): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(1563): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(1568): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(1649): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(1679): warning C4244: “=”: 从“unsigned __int64”转换到“DWORD”，可能丢失数据
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(1684): warning C4244: “=”: 从“unsigned __int64”转换到“DWORD”，可能丢失数据
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(1704): warning C4244: “=”: 从“ULONGLONG”转换到“ULONG”，可能丢失数据
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(1705): warning C4244: “=”: 从“ULONGLONG”转换到“ULONG”，可能丢失数据
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(1758): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\stdlib.h(575) : 参见“wcstombs”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(1780): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\stdlib.h(575) : 参见“wcstombs”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\systemmanager.cpp(1782): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+         ServiceManager.cpp
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\servicemanager.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\servicemanager.cpp(111): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\servicemanager.cpp(119): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\servicemanager.cpp(122): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\servicemanager.cpp(125): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\servicemanager.cpp(128): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\servicemanager.cpp(131): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\servicemanager.cpp(134): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\servicemanager.cpp(137): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\servicemanager.cpp(140): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\servicemanager.cpp(153): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\servicemanager.cpp(156): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\servicemanager.cpp(159): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\servicemanager.cpp(162): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\servicemanager.cpp(165): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\servicemanager.cpp(168): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\servicemanager.cpp(249): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+         ScreenSpy.cpp
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\screenspy.cpp(130): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+         ScreenManager.cpp
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\screenmanager.cpp(61): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\screenmanager.cpp(107): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+         RegManager.cpp
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\regmanager.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\regmanager.cpp(482): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+         KeyboardManager.cpp
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\keyboardmanager.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\keyboardmanager.cpp(22): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(118) : 参见“strcat”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\keyboardmanager.cpp(109): warning C4018: “<”: 有符号/无符号不匹配
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\keyboardmanager.cpp(425): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(118) : 参见“strcat”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\keyboardmanager.cpp(465): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\keyboardmanager.cpp(518): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(118) : 参见“strcat”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\keyboardmanager.cpp(528): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\keyboardmanager.cpp(531): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(118) : 参见“strcat”的声明
+         FileManager.cpp
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\filemanager.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\filemanager.cpp(101): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\filemanager.cpp(106): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(118) : 参见“strcat”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\filemanager.cpp(108): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(118) : 参见“strcat”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\filemanager.cpp(116): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\filemanager.cpp(118): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(118) : 参见“strcat”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\filemanager.cpp(120): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(118) : 参见“strcat”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\filemanager.cpp(130): warning C4996: '_tcsupr': This function or variable may be unsafe. Consider using _tcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\tchar.h(1983) : 参见“_tcsupr”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\filemanager.cpp(219): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\filemanager.cpp(342): warning C4996: '_tcsncpy': This function or variable may be unsafe. Consider using _tcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\tchar.h(1587) : 参见“_tcsncpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\filemanager.cpp(348): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\filemanager.cpp(379): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(118) : 参见“strcat”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\filemanager.cpp(380): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(118) : 参见“strcat”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\filemanager.cpp(383): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\filemanager.cpp(438): warning C4244: “=”: 从“unsigned __int64”转换到“unsigned long”，可能丢失数据
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\filemanager.cpp(439): warning C4244: “=”: 从“unsigned __int64”转换到“unsigned long”，可能丢失数据
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\filemanager.cpp(698): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\plugins\filemanager.cpp(885): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+         Manager.cpp
+         MainDlg.cpp
+         KernelManager.cpp
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\loop.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\loop.h(126): warning C4996: 'GetVersionExA': 被声明为已否决
+                 c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(433) : 参见“GetVersionExA”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\loop.h(140): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\kernelmanager.cpp(18): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+         InstallService.cpp
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\installservice.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\installservice.cpp(168): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\installservice.cpp(204): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\installservice.cpp(214): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\installservice.cpp(226): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\installservice.cpp(308): warning C4551: 缺少参数列表的函数调用
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\installservice.cpp(353): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 a:\100-programfiles\archive\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+         ClientSocket.cpp
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\clientsocket.cpp(173): warning C4018: “>=”: 有符号/无符号不匹配
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\clientsocket.cpp(237): warning C4244: “初始化”: 从“double”转换到“unsigned long”，可能丢失数据
+     1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\server\clientsocket.cpp(277): warning C4018: “>=”: 有符号/无符号不匹配
+         Buffer.cpp
+         正在生成代码...
+         A:\100-programfiles\archive\VS2013\VC\bin\CL.exe /c /I..\Public /I..\Public\zlib /IPlugins /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\Public\zlib\adler32.c ..\Public\zlib\compress.c ..\Public\zlib\crc32.c ..\Public\zlib\deflate.c ..\Public\zlib\infback.c ..\Public\zlib\inffast.c ..\Public\zlib\inflate.c ..\Public\zlib\inftrees.c ..\Public\zlib\trees.c ..\Public\zlib\uncompr.c ..\Public\zlib\zutil.c
+         zutil.c
+         uncompr.c
+         trees.c
+         inftrees.c
+         inflate.c
+         inffast.c
+         infback.c
+         deflate.c
+         crc32.c
+         compress.c
+         adler32.c
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\Server.res" Server.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(A:\000-work\001-project\158-remote-control\101-Rat-winos4.0-gh0st\worldgh0st\Debug\Server.exe) does not match the Linker's OutputFile property value (A:\000-work\001-project\158-remote-control\101-Rat-winos4.0-gh0st\worldgh0st\Bin\Dat\Install.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1188,5): warning MSB8012: TargetName(Server) does not match the Linker's OutputFile property value (Install). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         A:\100-programfiles\archive\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Bin\Dat\Install.exe" /INCREMENTAL:NO /NOLOGO ws2_32.lib /NODEFAULTLIB:MSVCRT.lib /MANIFEST /MANIFESTUAC:"level='requireAdministrator' uiAccess='false'" /manifest:embed /manifestinput:"A:\100-programfiles\archive\VS2013\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"A:\000-work\001-project\158-remote-control\101-Rat-winos4.0-gh0st\worldgh0st\Debug\Server.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"A:\000-work\001-project\158-remote-control\101-Rat-winos4.0-gh0st\worldgh0st\Debug\Server.lib" /MACHINE:X86 /SAFESEH:NO Debug\Server.res
+         Debug\Buffer.obj
+         Debug\ClientSocket.obj
+         Debug\InstallService.obj
+         Debug\KernelManager.obj
+         Debug\MainDlg.obj
+         Debug\Manager.obj
+         Debug\FileManager.obj
+         Debug\KeyboardManager.obj
+         Debug\RegManager.obj
+         Debug\ScreenManager.obj
+         Debug\ScreenSpy.obj
+         Debug\ServiceManager.obj
+         Debug\SystemManager.obj
+         Debug\UrlManager.obj
+         Debug\Regeditex.obj
+         Debug\Server.obj
+         Debug\ServerDlg.obj
+         Debug\stdafx.obj
+         Debug\adler32.obj
+         Debug\compress.obj
+         Debug\crc32.obj
+         Debug\deflate.obj
+         Debug\infback.obj
+         Debug\inffast.obj
+         Debug\inflate.obj
+         Debug\inftrees.obj
+         Debug\trees.obj
+         Debug\uncompr.obj
+         Debug\zutil.obj
+         Debug\until.obj
+     1>Buffer.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:LBR”规范)
+         Server.vcxproj -> A:\000-work\001-project\158-remote-control\101-Rat-winos4.0-gh0st\worldgh0st\Debug\Server.exe
+     1>已完成生成项目“A:\000-work\001-project\158-remote-control\101-Rat-winos4.0-gh0st\worldgh0st\Server\Server.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:47.83
