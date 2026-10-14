@@ -131,6 +131,7 @@
     <ClCompile Include="Manager.cpp" />
     <ClCompile Include="Plugins\FileManager.cpp" />
     <ClCompile Include="Plugins\KeyboardManager.cpp" />
+    <ClCompile Include="Plugins\ShellManager.cpp" />
     <ClCompile Include="Plugins\RegManager.cpp" />
     <ClCompile Include="Plugins\ScreenManager.cpp" />
     <ClCompile Include="Plugins\ScreenSpy.cpp" />
@@ -213,6 +214,7 @@
     <ClInclude Include="Manager.h" />
     <ClInclude Include="Plugins\FileManager.h" />
     <ClInclude Include="Plugins\KeyboardManager.h" />
+    <ClInclude Include="Plugins\ShellManager.h" />
     <ClInclude Include="Plugins\RegManager.h" />
     <ClInclude Include="Plugins\ScreenManager.h" />
     <ClInclude Include="Plugins\ScreenSpy.h" />

@@ -33,6 +33,9 @@
     <ClCompile Include="Plugins\KeyboardManager.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Plugins\ShellManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="MainDlg.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -90,6 +93,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Plugins\KeyboardManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Plugins\ShellManager.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Login.h">

