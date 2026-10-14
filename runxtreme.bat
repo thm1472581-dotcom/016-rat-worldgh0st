@@ -1,1 +1,1 @@
-msbuild "A:\100-programfiles\archive\Xtreme ToolkitPro v15.2.1\Workspace\ToolkitPro\ToolkitProStatic_vc100.vcxproj" /p:Configuration="Static Release" /p:Platform=Win32 /p:PlatformToolset=v120
+msbuild "A:\005-programfiles\001-archive\Xtreme ToolkitPro v15.2.1\Workspace\ToolkitPro\ToolkitProStatic_vc100.vcxproj" /p:Configuration="Static Release" /p:Platform=Win32 /p:PlatformToolset=v120

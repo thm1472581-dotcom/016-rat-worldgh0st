@@ -1,5 +1,12 @@
-﻿生成启动时间为 2026/7/17 19:31:48。
+﻿生成启动时间为 2026-10-10 21:42:10。
+     1>项目“A:\001-project\016-rat-worldgh0st\Server\Server.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(A:\001-project\016-rat-worldgh0st\Release\Server.exe) does not match the Linker's OutputFile property value (A:\001-project\016-rat-worldgh0st\Bin\Dat\Install.dat). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1187,5): warning MSB8012: TargetExt(.exe) does not match the Linker's OutputFile property value (.dat). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1188,5): warning MSB8012: TargetName(Server) does not match the Linker's OutputFile property value (Install). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>Link:
+         Server.vcxproj -> A:\001-project\016-rat-worldgh0st\Release\Server.exe
+     1>已完成生成项目“A:\001-project\016-rat-worldgh0st\Server\Server.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.33
+已用时间 00:00:00.14

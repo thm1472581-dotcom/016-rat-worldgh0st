@@ -1,14 +1,14 @@
 ﻿生成启动时间为 2026/7/17 14:07:01。
      1>项目“A:\000-work\001-project\158-remote-control\101-Rat-winos4.0-gh0st\worldgh0st\Client\Client.vcxproj”在节点 2 上(Rebuild 个目标)。
      1>PreBuildEvent:
-         if not exist "A:\100-programfiles\archive\Xtreme ToolkitPro v15.2.1\Source\XTToolkitPro.h" (echo. & echo ERROR: XTToolkitPro.h not found. & echo Install Codejock Xtreme ToolkitPro v18.5 and set XtpRoot in worldgh0st\XTP.local.props & echo or set XTPROOT environment variable, then restart VS. & echo Expected: A:\100-programfiles\archive\Xtreme ToolkitPro v15.2.1\Source\XTToolkitPro.h & echo. & exit /b 1)
+         if not exist "A:\005-programfiles\001-archive\Xtreme ToolkitPro v15.2.1\Source\XTToolkitPro.h" (echo. & echo ERROR: XTToolkitPro.h not found. & echo Install Codejock Xtreme ToolkitPro v18.5 and set XtpRoot in worldgh0st\XTP.local.props & echo or set XTPROOT environment variable, then restart VS. & echo Expected: A:\005-programfiles\001-archive\Xtreme ToolkitPro v15.2.1\Source\XTToolkitPro.h & echo. & exit /b 1)
          :VCEnd
        ClCompile:
-         A:\100-programfiles\archive\VS2013\VC\bin\CL.exe /c /I"A:\100-programfiles\archive\Xtreme ToolkitPro v15.2.1\Source" /IInclude /I..\Public /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _WIN32_WINNT=0x0601 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Client.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /Zm1000 stdafx.cpp
+         A:\005-programfiles\001-archive\VS2013\VC\bin\CL.exe /c /I"A:\005-programfiles\001-archive\Xtreme ToolkitPro v15.2.1\Source" /IInclude /I..\Public /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _WIN32_WINNT=0x0601 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Client.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /Zm1000 stdafx.cpp
          stdafx.cpp
      1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\client\stdafx.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
          Automatically linking with ToolkitPro1521vc100SD.lib
-         A:\100-programfiles\archive\VS2013\VC\bin\CL.exe /c /I"A:\100-programfiles\archive\Xtreme ToolkitPro v15.2.1\Source" /IInclude /I..\Public /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _WIN32_WINNT=0x0601 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /Zm1000 BuildDlg.cpp Client.cpp ClientDoc.cpp ClientView.cpp FileManagerDlg.cpp FileTransferModeDlg.cpp GroupDlg.cpp Include\BmpToAvi.cpp Include\Buffer.cpp Include\IniFile.cpp Include\InputDlg.cpp Include\IOCPServer.cpp InfoDlg.cpp KeyBoardDlg.cpp MainFrm.cpp MsgBoxDlg.cpp PaneColorSet.cpp RegeditDlg.cpp RegeditTextDlg.cpp ScreenSpyDlg.cpp ServiceDlg.cpp ServiceInfoDlg.cpp ShellDlg.cpp SystemDlg.cpp UrlDlg.cpp
+         A:\005-programfiles\001-archive\VS2013\VC\bin\CL.exe /c /I"A:\005-programfiles\001-archive\Xtreme ToolkitPro v15.2.1\Source" /IInclude /I..\Public /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _WIN32_WINNT=0x0601 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /Zm1000 BuildDlg.cpp Client.cpp ClientDoc.cpp ClientView.cpp FileManagerDlg.cpp FileTransferModeDlg.cpp GroupDlg.cpp Include\BmpToAvi.cpp Include\Buffer.cpp Include\IniFile.cpp Include\InputDlg.cpp Include\IOCPServer.cpp InfoDlg.cpp KeyBoardDlg.cpp MainFrm.cpp MsgBoxDlg.cpp PaneColorSet.cpp RegeditDlg.cpp RegeditTextDlg.cpp ScreenSpyDlg.cpp ServiceDlg.cpp ServiceInfoDlg.cpp ShellDlg.cpp SystemDlg.cpp UrlDlg.cpp
          UrlDlg.cpp
      1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\client\stdafx.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
          Automatically linking with ToolkitPro1521vc100SD.lib
@@ -45,13 +45,13 @@
      1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\client\stdafx.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
          Automatically linking with ToolkitPro1521vc100SD.lib
      1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\client\regeditdlg.cpp(313): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 a:\100-programfiles\archive\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+                 A:\005-programfiles\001-archive\VS2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
      1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\client\regeditdlg.cpp(346): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 a:\100-programfiles\archive\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+                 A:\005-programfiles\001-archive\VS2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
      1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\client\regeditdlg.cpp(406): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 a:\100-programfiles\archive\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+                 A:\005-programfiles\001-archive\VS2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
      1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\client\regeditdlg.cpp(417): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 a:\100-programfiles\archive\vs2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
+                 A:\005-programfiles\001-archive\VS2013\vc\include\stdio.h(356) : 参见“sprintf”的声明
          PaneColorSet.cpp
      1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\client\stdafx.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
          Automatically linking with ToolkitPro1521vc100SD.lib
@@ -69,7 +69,7 @@
      1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\client\stdafx.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
          Automatically linking with ToolkitPro1521vc100SD.lib
      1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\client\infodlg.cpp(337): warning C4996: 'ATL::CRegKey::QueryValue': CRegKey::QueryValue(TCHAR *value, TCHAR *valueName) has been superseded by CRegKey::QueryStringValue and CRegKey::QueryMultiStringValue
-                 a:\100-programfiles\archive\vs2013\vc\atlmfc\include\atlbase.h(5592) : 参见“ATL::CRegKey::QueryValue”的声明
+                 A:\005-programfiles\001-archive\VS2013\vc\atlmfc\include\atlbase.h(5592) : 参见“ATL::CRegKey::QueryValue”的声明
          IOCPServer.cpp
      1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\client\stdafx.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
          Automatically linking with ToolkitPro1521vc100SD.lib
@@ -79,7 +79,7 @@
      1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\client\stdafx.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
          Automatically linking with ToolkitPro1521vc100SD.lib
      1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\client\include\inputdlg.cpp(124): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 a:\100-programfiles\archive\vs2013\vc\include\string.h(294) : 参见“wcscpy”的声明
+                 A:\005-programfiles\001-archive\VS2013\vc\include\string.h(294) : 参见“wcscpy”的声明
          IniFile.cpp
      1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\client\stdafx.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
          Automatically linking with ToolkitPro1521vc100SD.lib
@@ -94,9 +94,9 @@
      1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\client\stdafx.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
          Automatically linking with ToolkitPro1521vc100SD.lib
      1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\client\groupdlg.cpp(518): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+                 A:\005-programfiles\001-archive\VS2013\vc\include\string.h(112) : 参见“strcpy”的声明
      1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\client\groupdlg.cpp(519): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 a:\100-programfiles\archive\vs2013\vc\include\string.h(112) : 参见“strcpy”的声明
+                 A:\005-programfiles\001-archive\VS2013\vc\include\string.h(112) : 参见“strcpy”的声明
          FileTransferModeDlg.cpp
      1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\client\stdafx.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
          Automatically linking with ToolkitPro1521vc100SD.lib
@@ -120,14 +120,14 @@
      1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\client\stdafx.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
          Automatically linking with ToolkitPro1521vc100SD.lib
      1>a:\000-work\001-project\158-remote-control\101-rat-winos4.0-gh0st\worldgh0st\client\builddlg.cpp(137): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 a:\100-programfiles\archive\vs2013\vc\include\stdio.h(304) : 参见“sscanf”的声明
+                 A:\005-programfiles\001-archive\VS2013\vc\include\stdio.h(304) : 参见“sscanf”的声明
          正在生成代码...
        ResourceCompile:
-         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /l"0x0409" /I"A:\100-programfiles\archive\Xtreme ToolkitPro v15.2.1\Source" /IDebug\ /nologo /fo"Debug\Client.res" Client.rc 
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /l"0x0409" /I"A:\005-programfiles\001-archive\Xtreme ToolkitPro v15.2.1\Source" /IDebug\ /nologo /fo"Debug\Client.res" Client.rc 
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(A:\000-work\001-project\158-remote-control\101-Rat-winos4.0-gh0st\worldgh0st\Debug\Client.exe) does not match the Linker's OutputFile property value (A:\000-work\001-project\158-remote-control\101-Rat-winos4.0-gh0st\worldgh0st\Bin\V-Eye.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1188,5): warning MSB8012: TargetName(Client) does not match the Linker's OutputFile property value (V-Eye). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
        Link:
-         A:\100-programfiles\archive\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Bin\V-Eye.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"A:\100-programfiles\archive\Xtreme ToolkitPro v15.2.1\Lib\vc100" /NODEFAULTLIB:libcd.lib /NODEFAULTLIB:libcmt.lib /MANIFEST /MANIFESTUAC:"level='requireAdministrator' uiAccess='false'" /manifest:embed /manifestinput:"A:\100-programfiles\archive\VS2013\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"A:\000-work\001-project\158-remote-control\101-Rat-winos4.0-gh0st\worldgh0st\Debug\Client.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"A:\000-work\001-project\158-remote-control\101-Rat-winos4.0-gh0st\worldgh0st\Debug\Client.lib" /MACHINE:X86 /SAFESEH Debug\Client.res
+         A:\005-programfiles\001-archive\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Bin\V-Eye.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"A:\005-programfiles\001-archive\Xtreme ToolkitPro v15.2.1\Lib\vc100" /NODEFAULTLIB:libcd.lib /NODEFAULTLIB:libcmt.lib /MANIFEST /MANIFESTUAC:"level='requireAdministrator' uiAccess='false'" /manifest:embed /manifestinput:"A:\005-programfiles\001-archive\VS2013\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"A:\000-work\001-project\158-remote-control\101-Rat-winos4.0-gh0st\worldgh0st\Debug\Client.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"A:\000-work\001-project\158-remote-control\101-Rat-winos4.0-gh0st\worldgh0st\Debug\Client.lib" /MACHINE:X86 /SAFESEH Debug\Client.res
          Debug\BuildDlg.obj
          Debug\Client.obj
          Debug\ClientDoc.obj

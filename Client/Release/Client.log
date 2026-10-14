@@ -1,5 +1,41 @@
-﻿生成启动时间为 2026/7/17 19:31:48。
+﻿生成启动时间为 2026-10-10 22:40:43。
+     1>项目“A:\001-project\016-rat-worldgh0st\Client\Client.vcxproj”在节点 2 上(Build 个目标)。
+     1>PreBuildEvent:
+         if not exist "A:\005-programfiles\001-archive\Xtreme ToolkitPro v15.2.1\Source\XTToolkitPro.h" (echo. & echo ERROR: XTToolkitPro.h not found. & echo Install Codejock Xtreme ToolkitPro v18.5 and set XtpRoot in worldgh0st\XTP.local.props & echo or set XTPROOT environment variable, then restart VS. & echo Expected: A:\005-programfiles\001-archive\Xtreme ToolkitPro v15.2.1\Source\XTToolkitPro.h & echo. & exit /b 1)
+         :VCEnd
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(A:\001-project\016-rat-worldgh0st\Release\Client.exe) does not match the Linker's OutputFile property value (A:\001-project\016-rat-worldgh0st\Bin\V-Eye.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1188,5): warning MSB8012: TargetName(Client) does not match the Linker's OutputFile property value (V-Eye). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         A:\005-programfiles\001-archive\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Bin\V-Eye.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"A:\005-programfiles\001-archive\Xtreme ToolkitPro v15.2.1\Lib\vc120" /NODEFAULTLIB:libc.lib /NODEFAULTLIB:msvcrt.lib /NODEFAULTLIB:libcd.lib /NODEFAULTLIB:libcmtd.lib /NODEFAULTLIB:msvcrtd.lib /MANIFEST /MANIFESTUAC:"level='requireAdministrator' uiAccess='false'" /manifest:embed /manifestinput:"A:\005-programfiles\001-archive\VS2013\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"A:\001-project\016-rat-worldgh0st\Release\Client.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"A:\001-project\016-rat-worldgh0st\Release\Client.lib" /MACHINE:X86 /SAFESEH Release\Client.res
+         Release\BuildDlg.obj
+         Release\Client.obj
+         Release\ClientDoc.obj
+         Release\ClientView.obj
+         Release\FileManagerDlg.obj
+         Release\FileTransferModeDlg.obj
+         Release\GroupDlg.obj
+         Release\BmpToAvi.obj
+         Release\Buffer.obj
+         Release\IniFile.obj
+         Release\InputDlg.obj
+         Release\IOCPServer.obj
+         Release\InfoDlg.obj
+         Release\KeyBoardDlg.obj
+         Release\MainFrm.obj
+         Release\MsgBoxDlg.obj
+         Release\PaneColorSet.obj
+         Release\RegeditDlg.obj
+         Release\RegeditTextDlg.obj
+         Release\ScreenSpyDlg.obj
+         Release\ServiceDlg.obj
+         Release\ServiceInfoDlg.obj
+         Release\ShellDlg.obj
+         Release\stdafx.obj
+         Release\SystemDlg.obj
+         Release\UrlDlg.obj
+         Client.vcxproj -> A:\001-project\016-rat-worldgh0st\Release\Client.exe
+     1>已完成生成项目“A:\001-project\016-rat-worldgh0st\Client\Client.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.12
+已用时间 00:00:02.53
