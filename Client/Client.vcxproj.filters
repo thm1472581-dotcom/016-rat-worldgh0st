@@ -24,6 +24,12 @@
     <ClCompile Include="BuildDlg.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="BuildDlgEx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildHelper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="Client.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -102,6 +108,15 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="BuildDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildDlgEx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\HostConfig.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Client.h">

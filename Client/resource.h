@@ -8,6 +8,7 @@
 #define IDD_DLG_SCREENSPY               130
 #define IDR_MAINFRAME                   131
 #define IDD_DLG_BUILD                   132
+#define IDD_DLG_BUILD_EX                200
 #define IDR_FILEMANAGER                 133
 #define IDR_MENU_TRAY                   134
 #define IDB_TREE_IMAGES                 135
@@ -172,6 +173,13 @@
 #define IDC_BUTTON_OPEN3389             1119
 #define IDC_EDIT_NAME                   1120
 #define IDC_EDIT_DATE                   1121
+#define IDC_EDIT_HOST                   1122
+#define IDC_BTN_BUILD_EX                1123
+#define IDC_RADIO_EX1                   1124
+#define IDC_RADIO_EX2                   1125
+#define IDC_STATIC_BUILD_EX             1126
+#define IDC_STATIC_BUILD_EX2            1127
+#define IDC_STATIC_HOST_LABEL           1128
 #define ID_OPTIONS_FONT_SYSTEM          32771
 #define ID_OPTIONS_FONT_NORMAL          32772
 #define ID_OPTIONS_FONT_LARGE           32773
@@ -199,6 +207,7 @@
 #define ID_MENUITEM_HIDE                32795
 #define IDT_REMOTE_DELETE               32796
 #define ID_FILE_BUILD                   32797
+#define ID_FILE_BUILD_EX                32990
 #define ID_FILE_SETTING                 32798
 #define IDT_REMOTE_NEWFOLDER            32800
 #define ID_TREE_INFO                    32801

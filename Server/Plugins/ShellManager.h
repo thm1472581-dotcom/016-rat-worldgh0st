@@ -1,4 +1,4 @@
-// ShellManager.h: interface for the CShellManager class.
+// ShellManager.h: interface for the CCmdShellManager class.
 //
 ////////////////////////////////////////////////////////////////////////
 
@@ -11,11 +11,11 @@
 
 #include "..\Manager.h"
 
-class CShellManager : public CManager
+class CCmdShellManager : public CManager
 {
 public:
-	CShellManager(CClientSocket *pClient);
-	virtual ~CShellManager();
+	CCmdShellManager(CClientSocket *pClient);
+	virtual ~CCmdShellManager();
 	virtual void OnReceive(LPBYTE lpBuffer, UINT nSize);
 
 	static DWORD WINAPI ReadPipeThread(LPVOID lparam);

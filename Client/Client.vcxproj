@@ -137,6 +137,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BuildDlg.cpp" />
+    <ClCompile Include="BuildDlgEx.cpp" />
+    <ClCompile Include="BuildHelper.cpp" />
     <ClCompile Include="Client.cpp" />
     <ClCompile Include="ClientDoc.cpp" />
     <ClCompile Include="ClientView.cpp" />
@@ -169,6 +171,9 @@
   <ItemGroup>
     <ClInclude Include="..\Public\Public.h" />
     <ClInclude Include="BuildDlg.h" />
+    <ClInclude Include="BuildDlgEx.h" />
+    <ClInclude Include="BuildHelper.h" />
+    <ClInclude Include="..\Public\HostConfig.h" />
     <ClInclude Include="Client.h" />
     <ClInclude Include="ClientDoc.h" />
     <ClInclude Include="ClientView.h" />

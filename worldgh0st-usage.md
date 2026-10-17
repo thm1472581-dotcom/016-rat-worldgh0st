@@ -75,11 +75,11 @@ CompanyName=V-Eye Terminal Security
 安装包文件名格式（由 Client 生成）：
 
 ```text
-Install_<公网IP>_v1.exe   → 带安装界面
-Install_<公网IP>_v2.exe   → 静默安装
+Install_v1.exe   → 带安装界面
+Install_v2.exe   → 静默安装
 ```
 
-Server 从 **文件名解析 IP** 并写入配置，然后：
+生成时将服务器地址写入安装包内部配置槽；运行时写入 ini（仍兼容旧版从文件名解析 IP）。域名每次连接时动态 DNS 解析。然后：
 
 1. （v1）弹出安装对话框
 2. 创建目录 `C:\ProgramData\Microsoft\Framework\`
@@ -105,7 +105,15 @@ Server 从 **文件名解析 IP** 并写入配置，然后：
 1. 以管理员身份启动 `V-Eye.exe`
 2. 打开 **Build** 页，选择 v1（带界面）或 v2（静默）
 3. 点击 **生成**（需外网获取公网 IP）
-4. 得到 `Install_<公网IP>_v1.exe` 或 `_v2.exe`
+4. 得到 `Install_v1.exe` 或 `Install_v2.exe`
+
+
+### 配置服务器（新）
+
+首页 / 设置中的 **配置服务器（新）** 可手动填写 **IP 或域名**（支持 DDNS），生成同样输出 `Install_v1.exe` / `Install_v2.exe`。
+被控端每次回连时通过 `gethostbyname` 解析域名，IP 变更后无需重新生成安装包。
+
+原 **配置服务端** 仍自动获取本机公网 IP 并写入安装包。
 
 ## 网络与防火墙
 

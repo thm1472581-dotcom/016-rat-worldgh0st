@@ -7,6 +7,7 @@
 #include "GroupDlg.h"
 #include "InfoDlg.h"
 #include "BuildDlg.h"
+#include "BuildDlgEx.h"
 #include "InputDlg.h"
 
 #include "ScreenSpyDlg.h"
@@ -61,6 +62,7 @@ BEGIN_MESSAGE_MAP(CMainFrame, CXTPFrameWnd)
 	ON_WM_SYSCOMMAND()
 	ON_COMMAND(ID_FILE_USER, &CMainFrame::OnFileUser)
 	ON_COMMAND(ID_FILE_BUILD, &CMainFrame::OnFileBuild)
+	ON_COMMAND(ID_FILE_BUILD_EX, &CMainFrame::OnFileBuildEx)
 	ON_COMMAND(ID_FILE_SETTING, &CMainFrame::OnFileSetting)
 	ON_COMMAND(ID_BATCH_LOGOUT, &CMainFrame::OnBatchLogout)
 	ON_COMMAND(ID_BATCH_RESTART, &CMainFrame::OnBatchRestart)
@@ -273,6 +275,10 @@ BOOL CMainFrame::CreateRibbonBar()
 		pControl = pGroupSet->Add(xtpControlButton, ID_FILE_BUILD);
 		pControl->SetStyle(xtpButtonIconAndCaptionBelow);
 
+		pControl = pGroupSet->Add(xtpControlButton, ID_FILE_BUILD_EX);
+		pControl->SetStyle(xtpButtonIconAndCaptionBelow);
+		pControl->SetIconId(ID_FILE_BUILD);
+
 		pControl = pGroupSet->Add(xtpControlButton, ID_FILE_SETTING);
 		pControl->SetStyle(xtpButtonIconAndCaptionBelow);
 
@@ -376,6 +382,10 @@ BOOL CMainFrame::CreateRibbonBar()
 
 		pControl = pGroupBuild->Add(xtpControlButton, ID_FILE_BUILD);
 		pControl->SetStyle(xtpButtonIconAndCaptionBelow);
+
+		pControl = pGroupBuild->Add(xtpControlButton, ID_FILE_BUILD_EX);
+		pControl->SetStyle(xtpButtonIconAndCaptionBelow);
+		pControl->SetIconId(ID_FILE_BUILD);
 
 		pControl = pGroupBuild->Add(xtpControlButton, ID_FILE_SETTING);
 		pControl->SetStyle(xtpButtonIconAndCaptionBelow);
@@ -492,6 +502,9 @@ void CMainFrame::SwitchToForm(int nForm)
 		case IDD_DLG_BUILD :
 			pNewActiveView=(CView*)new CBuildDlg;
 			break;
+		case IDD_DLG_BUILD_EX :
+			pNewActiveView=(CView*)new CBuildDlgEx;
+			break;
 		}
 
 		CCreateContext context;   //将文挡和视图相连
@@ -511,6 +524,8 @@ void CMainFrame::SwitchToForm(int nForm)
 
 	else if(pOldActiveView->GetRuntimeClass() ==RUNTIME_CLASS(CBuildDlg))
 		pOldActiveView->SetDlgCtrlID(IDD_DLG_BUILD);
+	else if(pOldActiveView->GetRuntimeClass() ==RUNTIME_CLASS(CBuildDlgEx))
+		pOldActiveView->SetDlgCtrlID(IDD_DLG_BUILD_EX);
 
 	pNewActiveView->SetDlgCtrlID(AFX_IDW_PANE_FIRST);
 
@@ -1262,6 +1277,15 @@ void CMainFrame::OnFileBuild()
 	SwitchToForm(IDD_DLG_BUILD); 
 //	OnManagerHideall();
 }
+
+void CMainFrame::OnFileBuildEx()
+{
+	if (GetActiveView()->IsKindOf(RUNTIME_CLASS(CBuildDlgEx)))
+		return;
+
+	SwitchToForm(IDD_DLG_BUILD_EX);
+}
+
 
 
 // 重启程序 

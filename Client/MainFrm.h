@@ -84,6 +84,7 @@ public:
 	afx_msg void OnMenuitemHide();
 	afx_msg void OnSysCommand(UINT nID, LPARAM lParam);
 	afx_msg void OnFileBuild();
+	afx_msg void OnFileBuildEx();
 	afx_msg void OnFileSetting();
 	afx_msg void OnBatchLogout();
 	afx_msg void OnBatchRestart();
